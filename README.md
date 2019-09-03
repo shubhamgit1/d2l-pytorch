@@ -4,8 +4,7 @@
 
 -----------------------------------------------------------------------------------------------------------
 
-This project is inspired of the original [Dive Into Deep Learning](https://d2l.ai) book by Aston Zhang, Zack C. Lipton, Mu Li, Alex J. Smola 
-and all the community contributors. We have made an effort to modify the book and convert the MXnet code snippets into PyTorch.
+This project is adapted from the original [Dive Into Deep Learning](https://d2l.ai) book by Aston Zhang, Zachary C. Lipton, Mu Li, Alex J. Smola and all the community contributors. We have made an effort to modify the book and convert the MXnet code snippets into PyTorch.
 
 Note: Some ipynb notebooks may not be rendered perfectly in Github. We suggest `cloning` the repo or using [nbviewer](https://nbviewer.jupyter.org/) to view the notebooks.
 
@@ -13,7 +12,7 @@ Note: Some ipynb notebooks may not be rendered perfectly in Github. We suggest `
 ## Chapters
 
   * **Ch02 Installation**
-    * [Installation](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch02_Installation/Installation.ipynb)
+    * [Installation](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch02_Installation/INSTALL.md)
 
   * **Ch03 Introduction**
     * [Introduction](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch03_Introduction/Introduction.ipynb)
@@ -29,11 +28,11 @@ Note: Some ipynb notebooks may not be rendered perfectly in Github. We suggest `
   * **Ch05 Linear Neural Networks**
     * 5.1 [Linear Regression](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch05_Linear_Neural_Networks/Linear_Regression.ipynb)
     * 5.2 [Linear Regression Implementation from Scratch](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch05_Linear_Neural_Networks/Linear_Regression_Implementation_from_Scratch.ipynb)
-    * 5.3 Concise Implementation of Linear Regression
+    * 5.3 [Concise Implementation of Linear Regression](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch05_Linear_Neural_Networks/Concise_Implementation_of_Linear_Regression.ipynb)
     * 5.4 [Softmax Regression](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch05_Linear_Neural_Networks/Softmax_Regression.ipynb)
     * 5.5 [Image Classification Data (Fashion-MNIST)](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch05_Linear_Neural_Networks/Image_Classification_Data(Fashion-MNIST).ipynb)
-    * 5.6 Implementation of Softmax Regression from Scratch
-    * 5.7 Concise Implementation of Softmax Regression
+    * 5.6 [Implementation of Softmax Regression from Scratch](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch05_Linear_Neural_Networks/Implementation_of_Softmax_Regression_from_Scratch.ipynb)
+    * 5.7 [Concise Implementation of Softmax Regression](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch05_Linear_Neural_Networks/Concise_Implementation_of_Softmax_Regression.ipynb)
 
   * **Ch06 Multilayer Perceptrons**
     * 6.1 [Multilayer Perceptron](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch06_Multilayer_Perceptrons/Multilayer_Perceptron.ipynb)
@@ -90,25 +89,25 @@ Note: Some ipynb notebooks may not be rendered perfectly in Github. We suggest `
     * 10.15 [Beam Search](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch10_Recurrent_Neural_Networks/Beam_Search.ipynb)
 
   * **Ch11 Attention Mechanism**
-    * 11.1 Attention Mechanism
+    * 11.1 [Attention Mechanism](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch10_Recurrent_Neural_Networks/Attention_Mechanism.ipynb)
     * 11.2 Sequence to Sequence with Attention Mechanism
     * 11.3 Transformer
 
   * **Ch12 Optimization Algorithms**
     * 12.1 [Optimization and Deep Learning](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch12_Optimization_Algorithms/Optimization_And_Deep_Learning.ipynb)
-    * 12.2 Convexity
-    * 12.3 Gradient Descent
-    * 12.4 Stochastic Gradient Descent
-    * 12.5 Mini-batch Stochastic Gradient Descent
-    * 12.6 Momentum
+    * 12.2 [Convexity](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch12_Optimization_Algorithms/Convexity.ipynb)
+    * 12.3 [Gradient Descent](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch12_Optimization_Algorithms/Gradient_Descent.ipynb)
+    * 12.4 [Stochastic Gradient Descent](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch12_Optimization_Algorithms/Stochastic_Gradient_Descent.ipynb)
+    * 12.5 [Mini-batch Stochastic Gradient Descent](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch12_Optimization_Algorithms/Mini-batch_Stochastic_Gradient_Descent.ipynb)
+    * 12.6 [Momentum](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch12_Optimization_Algorithms/Momentum.ipynb)
     * 12.7 Adagrad
-    * 12.8 RMSProp
+    * 12.8 [RMSProp](https://github.com/dsgiitr/d2l-pytorch/blob/master/Ch12_Optimization_Algorithms/RMSProp.ipynb)
     * 12.9 Adadelta
     * 12.10 Adam
 
 ## Contributing
 
-  * Please feel free to open a Pull Request to contribute a notebook in PyTorch for the rest of the chapters.
+  * Please feel free to open a Pull Request to contribute a notebook in PyTorch for the rest of the chapters. Before starting     out with the notebook, open an issue with the name of the notebook in order to contribute for the same. We will assign         that issue to you (if no one has been assigned earlier).
 
   * Strictly follow the naming conventions for the IPython Notebooks and the subsections.
 
